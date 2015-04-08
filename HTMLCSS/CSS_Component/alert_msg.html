@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Alert Message - CSS Component</title>
+    <style type="text/css">
+        /* ToDo: Change color to flat ones. */
+        .alert {
+            border: 2px solid #333;
+            border-radius: 6px;
+            padding: 10px;
+            background-color: #FFF;
+            font-weight: bold;
+            font-size: 16px;
+            color: #333;
+        }
+
+        .success {
+            border-color: #494;
+            background-color: rgba(68, 153, 68, 0.3);
+        }
+
+        .warning {
+            border-color: #DD0;
+            background-color: rgba(221, 221, 0, 0.3);
+        }
+
+        .error {
+            border-color: #C44;
+            background-color: rgba(204, 68, 68, 0.3);
+        }
+    </style>
+</head>
+<body>
+<div class="alert success">"Success" alert message.</div>
+<div class="alert warning">"Warning" alert message.</div>
+<div class="alert error">"Error" alert message.</div>
+</body>
+</html>

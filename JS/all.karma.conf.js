@@ -15,13 +15,16 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-      'GRAMMAR/spec/**/*spec.js',
-      'STYLE/spec/*spec.js'
+      'GRAMMAR/**/*.js',
+      'STYLE/**/*.js',
+      'BDD_Patterns/**/*.js'
     ],
 
 
     // list of files to exclude
     exclude: [
+        '**/karma.conf.js',
+        '**/local.karma.conf.js'
     ],
 
 

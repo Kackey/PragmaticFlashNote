@@ -3,7 +3,7 @@
  */
 
 
-describe('OOP ', function(){
+describe('[GRAMMAR]->OOP ', function(){
     describe ('-> Concept of "constructor"', function(){
         it ('Constructor ', function(){
             // p.246 "プロになるためのJavaScript入門"

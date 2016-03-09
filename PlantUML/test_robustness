@@ -1,8 +1,0 @@
-@startuml
-actor Actor as user
-boundary Boundary as bndry
-control Control as ctrl
-entity Entity as ent
-
-
-@enduml

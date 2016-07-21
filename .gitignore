@@ -3,3 +3,5 @@ JS/e2e/screenshot/
 JS/GRAMMAR/node_modules/
 JS/node_modules/
 .idea
+RUBY/RSpec3/vendor/bundle
+RUBY/RSpec/vendor
